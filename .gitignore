@@ -1,0 +1,66 @@
+# Claude Code local settings (personal overrides)
+.claude/settings.local.json
+
+# Claude Code session data
+.claude/sessions/
+.claude/file-history/
+.claude/scheduled_tasks.json
+.claude/scheduled_tasks.lock
+
+# Output drafts (work in progress)
+output/drafts/*
+!output/drafts/.gitkeep
+
+# Content tracking data (may contain customer info)
+tracking/*
+!tracking/.gitkeep
+
+# Sensitive data
+**/customer-data/
+**/confidential/
+*.env
+*.env.local
+credentials.json
+secrets.json
+api-keys.txt
+
+# OAuth tokens
+.google-token.json
+.google-credentials.json
+.canva-tokens.json
+.canva-oauth-tokens.json
+
+# Cache files
+.release-notes-cache.json
+
+# Node modules
+node_modules/
+
+# Large media files
+*.psd
+*.ai
+*.sketch
+*.fig
+*.mp4
+*.mov
+*.avi
+*.mkv
+**/videos/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temp files
+*.log
+*.tmp
+*.bak
+.cache/

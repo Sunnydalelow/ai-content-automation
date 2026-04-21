@@ -1,0 +1,9 @@
+{
+  "name": "ai-content-automation-scripts",
+  "version": "1.0.0",
+  "description": "Integration scripts for AI content automation",
+  "private": true,
+  "dependencies": {
+    "dotenv": "^16.4.0"
+  }
+}
