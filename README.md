@@ -206,10 +206,6 @@ _Coming soon: Screenshots of `/blog`, `/brand-check`, and `/dashboard` in action
 
 Contributions welcome. If you build a new slash command, agent, or integration that could help other marketing teams, please open a PR.
 
-## License
-
-MIT License. See [LICENSE](LICENSE) for details.
-
 ---
 
 Built with [Claude Code](https://docs.anthropic.com/en/docs/claude-code) by Anthropic.
